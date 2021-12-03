@@ -1,4 +1,4 @@
-const km = parseInt(prompt('Quanti km deve percorrere?'));
+const km = parseInt(prompt('Inserire i km da percorrere'));
 let kmElement = document.getElementById ('km');
 
 const birthDay = parseInt(prompt('Inserire anno di nascita'));
