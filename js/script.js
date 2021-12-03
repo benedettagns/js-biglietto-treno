@@ -6,7 +6,7 @@ const birthDay = parseInt(prompt('Inserire anno di nascita'));
 //calcolo prezzi
 let prezzo = km * 0.21;
 
-età
+//età
 let now = new Date ();
 let data = now.getFullYear()+'-'+(now.getMonth()+1)+'-'+now.getDate();
 let dataElement = document.getElementById('data');
@@ -33,4 +33,3 @@ let prezzoTotale = prezzoFinale.toFixed(2);
 let prezzoElement = document.getElementById('prezzo');
 prezzoElement.innerHTML = `${prezzoTotale}`;
 
-console.log(prezzoTotale);
